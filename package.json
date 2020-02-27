@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,20 @@
   "homepage": "https://github.com/nlebedevinc/isurl#readme",
   "devDependencies": {
     "jest": "^25.1.0"
+  },
+  "jest": {
+    "verbose": true,
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    },
+    "collectCoverage": false,
+    "collectCoverageFrom": [
+      "index.js"
+    ]
   }
 }
