@@ -10,14 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/nlebedevinc/isurl.git"
   },
-  "author": "",
+  "author": "Nick Lebedev <nlebedevme@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nlebedevinc/isurl/issues"
   },
   "homepage": "https://github.com/nlebedevinc/isurl#readme",
   "devDependencies": {
-    "jest": "^25.1.0"
+    "jest": "^27.3.0"
   },
   "jest": {
     "verbose": true,
